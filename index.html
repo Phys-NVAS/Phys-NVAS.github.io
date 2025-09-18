@@ -24,7 +24,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>Align Your Rhythm: Generating Highly Aligned Dance Poses with Gating-Enhanced Rhythm-Aware Feature Representation</title>
+  <title>Physics-Aware Novel-View Acoustic Synthesis with Vision-Language Priors and 3D Acoustic Environment Modeling</title>
   <link rel="icon" type="image/svg+xml" href="static/images/favicon.svg">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
@@ -63,17 +63,15 @@
                 <span class="author-block">
                   <a href="" target="_blank">Jian Guan</a><sup>1*</sup>,</span>
                   <span class="author-block">
-                    <a href="" target="_blank">Xuanjia Zhao</a><sup>1</sup>,</span>
+                    <a href="" target="_blank">Youtian Lin</a><sup>2</sup>,</span>
                     <span class="author-block">
-                      <a href="" target="_blank">Dongli Xu</a><sup>2</sup>,</span>
+                      <a href="" target="_blank">Dongli Xu</a><sup>3</sup>,</span>
                       <span class="author-block">
-                        <a href="" target="_blank">Youtian Lin</a><sup>3</sup>,</span>
+                        <a href="" target="_blank">Tong Ye</a><sup>1</sup>,</span>
                         <span class="author-block">
-                          <a href="" target="_blank">Tong Ye</a><sup>1</sup>,</span>
+                          <a href="" target="_blank">Qiaoxi Zhu</a><sup>4</sup>,</span>
                           <span class="author-block">
-                            <a href="" target="_blank">Pengming Feng</a><sup>4</sup>,</span>
-                            <span class="author-block">
-                              <a href="" target="_blank">Haiwei Pan</a><sup>1</sup></span>
+                            <a href="" target="_blank">Pengming Feng</a><sup>1</sup></span>
                               </span>
                             </span>
                           </span>
@@ -169,7 +167,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Automatically generating natural, diverse and rhythmic human dance movements driven by music is vital for virtual reality and film industries. However, generating dance that naturally follows music remains a challenge, as existing methods lack proper beat alignment and exhibit unnatural motion dynamics. In this paper, we propose Danceba, a novel framework that leverages gating mechanism to enhance rhythm-aware feature representation for music-driven dance generation, which achieves highly aligned dance poses with enhanced rhythmic sensitivity. Specifically, we introduce Phase-Based Rhythm Extraction (PRE) to precisely extract rhythmic information from musical phase data, capitalizing on the intrinsic periodicity and temporal structures of music. Additionally, we propose Temporal-Gated Causal Attention (TGCA) to focus on global rhythmic features, ensuring that dance movements closely follow the musical rhythm. We also introduce Parallel Mamba Motion Modeling (PMMM) architecture to separately model upper and lower body motions along with musical features, thereby improving the naturalness and diversity of generated dance movements. Extensive experiments confirm that Danceba outperforms state-of-the-art methods, achieving significantly better rhythmic alignment and motion diversity.
+            Spatial audio is essential for immersive experiences, yet novel-view acoustic synthesis (NVAS) remains challenging due to complex physical phenomena such as reflection, diffraction, and material absorption. Existing methods based on single-view or panoramic inputs improve spatial fidelity but fail to capture global geometry and semantic cues such as object layout and material properties. To address this, we propose Phys-NVAS, the first physics-aware NVAS framework that integrates spatial geometry modeling with vision–language semantic priors. A global 3D acoustic environment is reconstructed from multi-view images and depth maps to estimate room size and shape, enhancing spatial awareness of sound propagation. Meanwhile, a vision–language model extracts physics-aware priors of objects, layouts, and materials, capturing absorption and reflection beyond geometry. An acoustic feature fusion adapter unifies these cues into a physics-aware representation for binaural generation. Experiments on RWAVS demonstrate that Phys-NVAS yields binaural audio with improved realism and physical consistency.
           </p>
         </div>
       </div>
