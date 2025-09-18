@@ -1,4 +1,4 @@
-# Page of "Align Your Rhythm: Generating Highly Aligned Dance Poses with Gating-Enhanced Rhythm-Aware Feature Representation"
+# Page of "Phys-NVAS"
 This is the presentation page of the paper "Align Your Rhythm: Generating Highly Aligned Dance Poses with Gating-Enhanced Rhythm-Aware Feature Representation"
 
 [paper link]()
